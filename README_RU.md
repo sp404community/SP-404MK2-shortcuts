@@ -1,4 +1,4 @@
-(En) Docs in English is in the [README](README.md)
+(En) Documentation in English is in the [README](README.md)
 
 # Шорткаты Roland SP-404MK2
 
@@ -8,7 +8,7 @@
 
 ## Как это работает
 
-Официальное руководство Roland [SP-404MK2 Manual](https://www.roland.com/global/support/by_product/sp-404mk2/owners_manuals/) в PDF (на англ.) содержит таблицы с полным перечнем всех (?) сочетаний кнопок и их функций. Надо скачать свежее руководство и сохранить PDF в подпапку `/pdf`. Имя файла проверьте в коде `main.py`
+[Официальное руководство](https://www.roland.com/global/support/by_product/sp-404mk2/owners_manuals/) Roland SP-404MK2 в PDF (на англ.) содержит таблицы с полным перечнем всех (?) сочетаний кнопок и их функций. Надо скачать свежее руководство и сохранить PDF в подпапку `/pdf`. Имя файла проверьте в коде `main.py`
 
 Функция `read_to_json()` парсит таблицы из PDF ([jsvine/pdfplumber](https://github.com/jsvine/pdfplumber)) и сохраняет в JSON файл. 
 
@@ -27,7 +27,7 @@
 - `DEEPL_API_KEY` - ключ АПИ deepl.com для первода строк, понадобится один раз
 - `PROXY` - адрес вашего HTTP прокси, если вы выходите в сеть в регионах, не поддерживаемых DeepL
 - `TELEGRAPH_TOKEN` - токен аккаунта Telegra.ph, который имеет права редактировать следующую страницу
-- `TELEGRAPH_PAGE_PATH` - путь к странице (то, что после "https://telegra.ph/"), которую обновит скрипт. Страница должна уже существовать/
+- `TELEGRAPH_PAGE_PATH` - путь к странице (то, что после `https://telegra.ph/`), которую обновит скрипт. Страница должна уже существовать.
 
 ## Разработка
 

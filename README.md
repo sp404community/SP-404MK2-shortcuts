@@ -1,4 +1,4 @@
-(Ru) Документация на русском языке: [README_RU](README_RU.md)
+:ru: Документация на русском языке: [README_RU](README_RU.md)
 
 # Roland SP-404MK2 shortcuts
 
@@ -6,15 +6,16 @@ Parse PDF manual to extract shortcut info, translate, edit and publish as Telegr
 
 ## How it works
 
-Official Roland [SP-404MK2 Manual](https://www.roland.com/global/support/by_product/sp-404mk2/owners_manuals/) PDF contains tables with all (?) keyboard shortcuts.
+Official Roland [SP-404MK2 Manual](https://www.roland.com/global/support/by_product/sp-404mk2/owners_manuals/) PDF contains tables with all (?) keyboard shortcuts. Download fresh manual into the `/pdf` folder and verify the filename in `main.py` to match.
 
-This script parses the PDF and translates table entries via [Deepl API](https://www.deepl.com/en/built-with-deepl).
+This script parses the PDF by [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) Python module and saves texts as a JSON file `tables.json` by default.
 
-Parsing is done by [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) Python module.
+Saved texts can be translated via [Deepl API](https://www.deepl.com/en/built-with-deepl) to most of the languages. Source texts and the translations are saved to a new JSON file, `bilingual.json` by default.
+Register for DeepL free account to get an API key. You;ll need to attach a valid credit card once for verification. Free quota is more than enough to translate all the strings in the shortcut guide.
 
-Translation to any language using DeepL API. Currently was only translated to Russian. Please join to refactor the code and allow easy extending to more languages. Register with DeepL free account to get an API key. Free quota is more than enought to translate all the strings in the shortcut guide.
+Please take some time to read through generated translations and manually edit some of the texts.
 
-Publish translated info to a [Telegra.ph](https://telegra.ph/) page for a quick [Instant View](https://instantview.telegram.org/) in Telegram. Script uses [Telegra.ph API](https://telegra.ph/api) for the task.
+Finally, publish translated info from the edited JSON file (see `translated.json`) to a [Telegra.ph](https://telegra.ph/) page for a quick [Instant View](https://instantview.telegram.org/) in Telegram. Script uses [Telegra.ph API](https://telegra.ph/api) for the task.
 
 ## Settings
 Provided `.env.example` contains the keys expected to be in production `.env` file:
@@ -25,10 +26,11 @@ Provided `.env.example` contains the keys expected to be in production `.env` fi
 
 ## Development
 
-I pulled this off as a quick free evening project, so pardon the code quality. Also there was quite a time I last used Python, so bare with me.
+DISCLAIMER. I pulled this off as a quick free evening project, so pardon the code quality. Also there was quite a time I last used Python, bare with me.
 
 You are more than welcome to contribute to the project:
 - refactor
 - add support for multiple languages
 - translate and publish more language translations of the shortcuts.
 
+Looking forward to see your pull requests!
