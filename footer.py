@@ -28,11 +28,11 @@ def _sp404community():
                 "children": ["DeepL"],
                 "attrs": {"href": "https://www.deepl.com/"},
             },
-            " и отредактирована вручную. Github: ",
+            " и отредактирована вручную. Исходный код и тексты в JSON ",
             {
                 "tag": "a",
                 "attrs": {"href": "https://github.com/sp404community/SP-404MK2-shortcuts"},
-                "children": ["sp404community/SP-404MK2-shortcuts"],
+                "children": ["на GitHub"],
             },
             ". Для русскоязычного сообщества ",
             {
