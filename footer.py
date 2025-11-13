@@ -28,7 +28,13 @@ def _sp404community():
                 "children": ["DeepL"],
                 "attrs": {"href": "https://www.deepl.com/"},
             },
-            " и отредактирована вручную. Для русскоязычного сообщества ",
+            " и отредактирована вручную. Github: ",
+            {
+                "tag": "a",
+                "attrs": {"href": "https://github.com/sp404community/SP-404MK2-shortcuts"},
+                "children": ["sp404community/SP-404MK2-shortcuts"],
+            },
+            ". Для русскоязычного сообщества ",
             {
                 "tag": "a",
                 "attrs": {"href": "https://t.me/sp404community"},

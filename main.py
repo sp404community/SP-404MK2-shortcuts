@@ -159,7 +159,6 @@ def translate_file(
     print(f"DeepL calls count: {deepl_count}, sent text length: {deepl_length} bytes")
 
 
-
 def fit_lines(str, indent=4, break_on_newline=True):
     """
     Break long text line into multiple lines

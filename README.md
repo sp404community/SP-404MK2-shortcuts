@@ -4,6 +4,8 @@
 
 Parse PDF manual to extract shortcut info, translate, edit and publish as Telegra.ph page.
 
+Resulting page example: https://telegra.ph/sp404-hotkeys-11-11 (in Russian).
+
 ## How it works
 
 Official Roland [SP-404MK2 Manual](https://www.roland.com/global/support/by_product/sp-404mk2/owners_manuals/) PDF contains tables with all (?) keyboard shortcuts. Download fresh manual into the `/pdf` folder and verify the filename in `main.py` to match.
@@ -28,7 +30,7 @@ Provided `.env.example` contains the keys expected to be in production `.env` fi
 
 DISCLAIMER. I pulled this off as a quick free evening project, so pardon the code quality. Also there was quite a time I last used Python, bare with me.
 
-You are more than welcome to contribute to the project:
+You are more than welcome to [contribute to the project](https://github.com/sp404community/SP-404MK2-shortcuts):
 - refactor
 - add support for multiple languages
 - translate and publish more language translations of the shortcuts.
