@@ -1,0 +1,814 @@
+[
+  {
+    "Section": "SHIFT",
+    "Title_En": "While holding down the [SHIFT] button",
+    "Title_Ru": "Удерживая нажатой кнопку [SHIFT]",
+    "En": [
+      [
+        "Pad [1]",
+        "FIXED VELOCITY",
+        "Sets the sample’s velocity so that it always plays back at 127 (the maximum)."
+      ],
+      [
+        "Pad [2]",
+        "16 VELOCITY",
+        "Changes a sample’s velocity (volume) in steps when it plays back."
+      ],
+      [
+        "Pad [3]",
+        "CUE",
+        "Adjusts the balance of the audio you monitor via the PHONES jack."
+      ],
+      [
+        "Pad [4]",
+        "CHROMATIC",
+        "Lets you play back samples (changing their pitches) as a chromatic scale with\nthe pads."
+      ],
+      [
+        "Pad [5]",
+        "EXCHANGE",
+        "Exchanges (swaps) the sample or pattern data saved in different pads."
+      ],
+      [
+        "Pad [6]",
+        "INIT PARAM",
+        "Initializes the sample parameters for the selected pad."
+      ],
+      [
+        "Pad [7]",
+        "PAD LINK",
+        "Lets you play back all the pads at the same time that are assigned to a group,\nby using a single pad."
+      ],
+      [
+        "Pad [8]",
+        "MUTE GROUP",
+        "Groups together samples that you don’t want to play together (samples that\nyou don’t want layered)."
+      ],
+      [
+        "Pad [9]",
+        "METRONOME",
+        "Turns the metronome on/off."
+      ],
+      [
+        "Pad [10]",
+        "COUNT-IN",
+        "Adds a count-in before sampling or pattern recording begins."
+      ],
+      [
+        "Pad [11]",
+        "TAP TEMPO",
+        "Lets you set the tempo in an intuitive way by tapping the pad in time, as if you\nwere clapping out the beat."
+      ],
+      [
+        "Pad [12]",
+        "GAIN",
+        "Displays the UTILITY MENU > SYSTEM > GAIN tab."
+      ],
+      [
+        "Pad [13]",
+        "UTILITY",
+        "Displays the UTILITY MENU screen."
+      ],
+      [
+        "Pad [14]",
+        "IMPORT/EXPORT",
+        "Displays the UTILITY MENU > IMPORT (IMPORT/EXPORT MENU)."
+      ],
+      [
+        "Pad [15]",
+        "PAD SETTING",
+        "Displays the UTILITY MENU > PAD SET (PAD SETTING)."
+      ],
+      [
+        "Pad [16]",
+        "EFX SETTING",
+        "Displays the UTILITY MENU > EFX SET (EFX SETTING) screen."
+      ],
+      [
+        "[BUS FX] button",
+        "MUTE BUS",
+        "Temporarily turns off the audio sent to the bus (the sample playback sound or\nthe sound inputted to the INPUT jack), and outputs only the sound of the\neffect."
+      ],
+      [
+        "[HOLD] button",
+        "PAUSE",
+        "Pauses the sample that’s currently playing back."
+      ],
+      [
+        "[EXT SOURCE] button",
+        "INPUT SETTING",
+        "Displays the input settings screen."
+      ],
+      [
+        "[SUB PAD] button",
+        "PROJECT",
+        "Displays the SELECT PROJECT screen."
+      ],
+      [
+        "[MARK] button (at least three seconds)",
+        "SAVE EFX\nPARAMETER",
+        "Saves the main parameters of the effects assigned to BUS 1 and BUS 2."
+      ],
+      [
+        "[PITCH/SPEED] button",
+        "ENVELOPE",
+        "Sets how the volume changes when the sample plays back."
+      ],
+      [
+        "[START/END] button",
+        "CHOP",
+        "Splits the sample at the marker positions, and assigns the resulting samples to\nseparate pads."
+      ],
+      [
+        "[PATTERN SELECT] button",
+        "UNDO",
+        "Undoes the data you just inputted (recorded).\n* Enabled only when recording a pattern"
+      ],
+      [
+        "[ROLL] button",
+        "ROLL SET",
+        "This shows how to set the roll interval (how fast the roll repeats)."
+      ],
+      [
+        "[REVERSE] button + pads [1]–[16]",
+        "Pad MUTE",
+        "Switches the pad mute on/off."
+      ],
+      [
+        "[REVERSE] button + [REMAIN] button",
+        "Pad MUTE MODE",
+        "Keeps the [SHIFT] and [REVERSE] buttons in “pressed-down” state."
+      ],
+      [
+        "[LOOP] button",
+        "PING-PONG LOOP",
+        "Loops the sample by repeatedly playing back forward and then backward."
+      ],
+      [
+        "[GATE] button",
+        "GATE ALL ON/OFF",
+        "Turns the GATE parameter for all samples in the selected bank on/off."
+      ],
+      [
+        "[BPM SYNC] button",
+        "SYNC ALL ON/OFF",
+        "Turns the BPM SYNC parameter for all samples in the selected bank on/off."
+      ],
+      [
+        "[REC] button",
+        "TR-REC",
+        "Switches to pattern recording using TR-REC.\nThis lets you record a sample onto the pattern that’s playing back.\n* Enabled only when playing back a pattern"
+      ],
+      [
+        "Bank [A/F]–[E/J] buttons",
+        "BANK VOLUME",
+        "Adjusts the volume for the specified bank overall."
+      ],
+      [
+        "[REMAIN] button (at least three seconds)",
+        "LIVE MODE",
+        "Use this to disable buttons that are not used when playing live (sampling and\nedit-related buttons)."
+      ],
+      [
+        "[COPY] button",
+        "BANK PROTECT",
+        "This function prevents the samples and patterns assigned to a pad from being\ncopied, overwritten by editing or accidentally deleted."
+      ],
+      [
+        "[VALUE] knob (press)",
+        "MARK",
+        "Switches the function to be recalled when you press the [MARK] button.\n* Switches between “SBS *** (skip-back sampling)” and “Looper”."
+      ],
+      [
+        "[RESAMPLE] button",
+        "SAMPLE MERGE MODE",
+        "Switches to sample merge mode."
+      ],
+      [
+        "[RECORD SETTING] button",
+        "SOUND GENERATOR MODE",
+        "Switches to sound generator mode."
+      ],
+      [
+        "[EXIT] button",
+        "STOP",
+        "Stops the playback of all samples."
+      ]
+    ],
+    "Ru": [
+      [
+        "Пэд [1]",
+        "FIXED VELOCITY",
+        "Даже слабое нажатие на пэд будет звучать, будто максимально сильное."
+      ],
+      [
+        "Пэд [2]",
+        "16 VELOCITY",
+        "Выбор 16 ступеней силы нажатия (громкости) пэда."
+      ],
+      [
+        "Пэд [3]",
+        "CUE",
+        "Регулировка баланса звука, который вы слышите через выход на наушники."
+      ],
+      [
+        "Пэд [4]",
+        "CHROMATIC",
+        "16 вариантов питча выбранного пэда."
+      ],
+      [
+        "Пэд [5]",
+        "EXCHANGE",
+        "Поменять местами два пэда - в режиме сэмплов или паттернов."
+      ],
+      [
+        "Пэд [6]",
+        "INIT PARAM",
+        "Сбросить параметры выбранного пэда на дефолтные (Pitch, Speed и пр.)"
+      ],
+      [
+        "Пэд [7]",
+        "PAD LINK",
+        "Позволяет связать несколько пэдов, чтобы нажатие на любой запускало все одновремено."
+      ],
+      [
+        "Пэд [8]",
+        "MUTE GROUP",
+        "Группирует пэды так, чтобы одновременно мог играть только один из группы. Следующий выключит предыдущий."
+      ],
+      [
+        "Пэд [9]",
+        "METRONOME",
+        "Включение/выключение метронома."
+      ],
+      [
+        "Пэд [10]",
+        "COUNT-IN",
+        "Добавляет отсчет перед началом сэмплирования или записи паттерна."
+      ],
+      [
+        "Пэд [11]",
+        "TAP TEMPO",
+        "Позволяет задать темп интуитивно понятным способом, постукивая по пэду в такт, как будто хлопаете под музыку."
+      ],
+      [
+        "Пэд [12]",
+        "GAIN",
+        "Отображает вкладку UTILITY MENU > SYSTEM > GAIN."
+      ],
+      [
+        "Пэд [13]",
+        "UTILITY",
+        "Отображает экран UTILITY MENU."
+      ],
+      [
+        "Пэд [14]",
+        "IMPORT/EXPORT",
+        "Отображает UTILITY MENU > IMPORT (меню импорта / экспорта)."
+      ],
+      [
+        "Пэд [15]",
+        "PAD SETTING",
+        "Отображается меню UTILITY MENU > PAD SET (настройка пэдов)."
+      ],
+      [
+        "Пэд [16]",
+        "EFX SETTING",
+        "Отображается экран UTILITY MENU > EFX SET (настройка эффектов)."
+      ],
+      [
+        "[BUS FX]",
+        "MUTE BUS",
+        "Временно отключает звук, передаваемый на шину (звук воспроизведения сэмпла или звук, поданный на гнездо INPUT), и выводит только звук эффекта."
+      ],
+      [
+        "[HOLD]",
+        "PAUSE",
+        "Приостанавливает воспроизведение сэмпла, который воспроизводится в данный момент."
+      ],
+      [
+        "[EXT SOURCE]",
+        "INPUT SETTING",
+        "Отображает экран настроек входных сигналов."
+      ],
+      [
+        "[SUB PAD]",
+        "PROJECT",
+        "Отображается экран выбора проекта."
+      ],
+      [
+        "[MARK] (зажать на три секунды)",
+        "SAVE EFX PARAMETER",
+        "Сохраняет основные параметры эффектов, назначенных на BUS 1 и BUS 2."
+      ],
+      [
+        "[PITCH/SPEED]",
+        "ENVELOPE",
+        "Устанавливает, как изменяется во времени громкость сэмпла."
+      ],
+      [
+        "[START/END]",
+        "CHOP",
+        "Нарезает сэмпл по позициям маркеров и назначает полученные сэмплы на новые пэды."
+      ],
+      [
+        "[PATTERN SELECT]",
+        "UNDO",
+        "Отменяет только что введенные (записанные) данные. Это дейстует только во время записи паттерна"
+      ],
+      [
+        "[ROLL]",
+        "ROLL SET",
+        "Покажет, с какой частотой будет повторяться сэмпл в режиме ROLL (барабанной дроби)."
+      ],
+      [
+        "[REVERSE] + пэды [1]-[16]",
+        "Pad MUTE",
+        "Включение/выключение звука выбранных пэдов."
+      ],
+      [
+        "[REVERSE] + [REMAIN]",
+        "Pad MUTE MODE",
+        "Задержит кнопки [SHIFT] и [REVERSE] в нажатом состоянии, чтобы удобнее мьютить и размьючивать пэды."
+      ],
+      [
+        "[LOOP]",
+        "PING-PONG LOOP",
+        "Зацикливание сэмпла вперед-назад."
+      ],
+      [
+        "[GATE]",
+        "GATE ALL ON/OFF",
+        "Включает/выключает параметр GATE для всех сэмплов в выбранном банке."
+      ],
+      [
+        "[BPM SYNC]",
+        "SYNC ALL ON/OFF",
+        "Включение/выключение параметра BPM SYNC для всех сэмплов в выбранном банке."
+      ],
+      [
+        "[REC]",
+        "TR-REC",
+        "Переключение на запись паттерна с помощью TR-REC. Это позволяет записать сэмпл на воспроизводимый паттерн. Действует только при воспроизведении паттерна"
+      ],
+      [
+        "Кнопки банков [A/F]-[E/J]",
+        "BANK VOLUME",
+        "Регулирует громкость для указанного банка в целом."
+      ],
+      [
+        "[REMAIN] (удерживать три секунды)",
+        "LIVE MODE",
+        "Отключение кнопок, которые не используются при живом выступлении (кнопки сэмплирования и редактирования)."
+      ],
+      [
+        "[COPY]",
+        "BANK PROTECT",
+        "Защищает сэмплы и паттерны, назначенных на пэд от копирования, случайной перезаписи при редактировании или удаления."
+      ],
+      [
+        "Ручка [VALUE] (нажать)",
+        "MARK",
+        "Переключение функции кнопки [MARK]: режимы SBS / Looper."
+      ],
+      [
+        "[RESAMPLE]",
+        "SAMPLE MERGE MODE",
+        "Режим объединения сэмплов."
+      ],
+      [
+        "[НАСТРОЙКА ЗАПИСИ]",
+        "SOUND GENERATOR MODE",
+        "Переключение в режим генератора звука (синтезатора)."
+      ],
+      [
+        "[EXIT]",
+        "STOP",
+        "Остановка воспроизведения всех сэмплов."
+      ]
+    ]
+  },
+  {
+    "Section": "REMAIN",
+    "Title_En": "While holding down the [REMAIN] button",
+    "Title_Ru": "Удерживая нажатой кнопку [REMAIN]",
+    "En": [
+      [
+        "Pads [1]–[16]",
+        "Sets which sample playback audio is sent to which bus (meaning which effects are\nused) for each sample."
+      ],
+      [
+        "Bank [A/F]–[E/J] buttons",
+        "Sets the bus send destination for all samples in a bank."
+      ],
+      [
+        "[MFX] button",
+        "Makes the effect edit screen keep displaying."
+      ],
+      [
+        "[BUS FX] button",
+        "You can swap the effects of BUS 1 and BUS 2. When the effects are switched, the effect\nparameter values are retained."
+      ],
+      [
+        "Edits the following parameters on the pitch/speed\nsettings screen\n SPEED\n PITCH\n VOLUME\n PAN\n BPM\n BPM SYNC\n GATE\n LOOP\n REVERSE",
+        "Lets you simultaneously edit the parameters of samples that are registered to the\nsame bank."
+      ],
+      [
+        "Edits the following parameters on the envelope settings\nscreen\n ATTACK\n HOLD\n RELEASE\n BPM SYNC\n GATE\n LOOP\n REVERSE",
+        "Lets you simultaneously edit the parameters of samples that are registered to the\nsame bank."
+      ]
+    ],
+    "Ru": [
+      [
+        "Пэды [1]-[16]",
+        "Выбор шины эффектов для пэда: Bus 1 / Bus 2 / мимо всех"
+      ],
+      [
+        "Банки [A/F]-[E/J]",
+        "Устанавливает шину эффектов для всех пэдов в банке."
+      ],
+      [
+        "[MFX]",
+        "Задержит экран редактирования эффекта."
+      ],
+      [
+        "[BUS FX]",
+        "Поменять местами эффекты BUS 1 и BUS 2. Значения параметров эффектов сохранятся."
+      ],
+      [
+        "Редактирование следующих параметров на экране Pitch/Speed:\n SPEED\n PITCH\n VOLUME\n PAN\n BPM\n BPM SYNC\n GATE\n LOOP\n REVERSE",
+        "Одновременно редактировать параметры в одном банке."
+      ],
+      [
+        "Редактирование следующих параметров на экране Envelope:\n ATTACK\n HOLD\n RELEASE\n BPM SYNC\n GATE\n LOOP\n REVERSE",
+        "Одновременно редактировать параметры в одном банке."
+      ]
+    ]
+  },
+  {
+    "Section": "VALUE",
+    "Title_En": "While holding down the [VALUE] knob",
+    "Title_Ru": "Удерживая нажатой ручку [VALUE]",
+    "En": [
+      [
+        "Pads [1]–[16]",
+        "Selects a sample (no sound is produced).\nAlso, selects a pattern when [PATTERN SELECT] is lit (the pattern does not play back)."
+      ],
+      [
+        "[BUS FX] button",
+        "Temporarily bypasses BUS 3 and BUS 4."
+      ],
+      [
+        "[SUB PAD] button",
+        "This minimizes the slight differences in timing when you play multiple samples at the\nsame time."
+      ],
+      [
+        "Effect buttons ([FILTER+DRIVE]–[MFX] button)",
+        "Applies effects only while you hold down the effect buttons (EFFECT GRAB)."
+      ],
+      [
+        "[GATE] button",
+        "Switches the “one-shot playback” sample playback mode on/off."
+      ]
+    ],
+    "Ru": [
+      [
+        "Пэды [1]-[16]",
+        "Выбор пэда без воспроизведения звука. Так же выбирается паттерн без включения, в режиме [PATTERN SELECT]."
+      ],
+      [
+        "[BUS FX]",
+        "Временно отключает эффекты на Bus 3 и Bus 4."
+      ],
+      [
+        "[SUB PAD]",
+        "Это устраняет минимальные различия во времени при одновременном пуске нескольких сэмплов."
+      ],
+      [
+        "Кнопки эффектов [FILTER+DRIVE]-[MFX]",
+        "Включает эффекты кратковременно - только при удержании их кнопок (EFFECT GRAB)."
+      ],
+      [
+        "[GATE]",
+        "Включение/выключение режима воспроизведения сэмплов \"one-shot playback\"."
+      ]
+    ]
+  },
+  {
+    "Section": "DEL",
+    "Title_En": "While holding down the [DEL] button",
+    "Title_Ru": "Удерживая нажатой кнопку [DEL]",
+    "En": [
+      [
+        "[MARK] button",
+        "Deletes the effect operations recorded using EFX MOTION REC from a pattern.\n* Enabled on the pattern edit screen"
+      ],
+      [
+        "[REVERSE] button",
+        "Deletes the pad mute operations recorded using EFX MOTION REC from a\npattern.\n* Enabled on the pattern edit screen"
+      ],
+      [
+        "[EXIT] button",
+        "Deletes all samples or patterns in a bank."
+      ]
+    ],
+    "Ru": [
+      [
+        "[MARK]",
+        "Удаляет из паттерна автоматизацию эффектов, записанную с помощью EFX MOTION REC. * Работает только на экране Sample Edit"
+      ],
+      [
+        "[REVERSE]",
+        "Удаляет из паттерна автоматизацию заглушения пэдов, записанную с помощью EFX MOTION REC. * Только на экране Sample Edit"
+      ],
+      [
+        "[EXIT]",
+        "Удаляет ВСЕ сэмплы или паттерны в банке."
+      ]
+    ]
+  },
+  {
+    "Section": "COPY",
+    "Title_En": "While holding down the [COPY] button",
+    "Title_Ru": "Удерживая нажатой кнопку [COPY]",
+    "En": [
+      [
+        "Edits the following parameters on the pitch/speed\nsettings screen\n SPEED\n PITCH\n VOLUME\n PAN\n BPM\n BPM SYNC\n GATE\n LOOP\n REVERSE",
+        "Lets you simultaneously edit the parameters of samples that are registered to the\nsame mute group."
+      ],
+      [
+        "Edits the following parameters on the envelope settings\nscreen\n ATTACK\n HOLD\n RELEASE\n BPM SYNC\n GATE\n LOOP\n REVERSE",
+        "Lets you simultaneously edit the parameters of samples that are registered to the\nsame mute group."
+      ],
+      [
+        "[EXIT] button",
+        "Copies all samples or patterns in a bank to a different bank."
+      ]
+    ],
+    "Ru": [
+      [
+        "Редактирование параметров в Pitch/Speed:\n SPEED\n PITCH\n VOLUME\n PAN\n BPM\n BPM SYNC\n GATE\n LOOP\n REVERSE",
+        "Одновременное редактирование пэдов в одной Mute Group."
+      ],
+      [
+        "Редактирование параметров Envelope:\n ATTACK\n HOLD\n RELEASE\n BPMSYNC\n GATE\n LOOP\n REVERSE",
+        "Одновременное редактирование пэдов в одной Mute Group."
+      ],
+      [
+        "[EXIT]",
+        "Копирует ВСЕ сэмплы или паттерны в банке в другой банк."
+      ]
+    ]
+  },
+  {
+    "Section": "MFX",
+    "Title_En": "While holding down the [MFX] button",
+    "Title_Ru": "Удерживая нажатой кнопку [MFX]",
+    "En": [
+      [
+        "[DJFX LOOPER] button",
+        "Displays the MFX LIST from #17 onwards."
+      ],
+      [
+        "[ISOLATOR] button",
+        "Displays the MFX LIST from #33 onwards."
+      ]
+    ],
+    "Ru": [
+      [
+        "[DJFX LOOPER]",
+        "Отображает список MFX LIST, начиная с №17 и далее."
+      ],
+      [
+        "[ISOLATOR]",
+        "Отображает список MFX LIST, начиная с №33 и далее."
+      ]
+    ]
+  },
+  {
+    "Section": "DJ mode",
+    "Title_En": "Shortcuts used in DJ mode",
+    "Title_Ru": "Ярлыки, используемые в режиме DJ",
+    "En": [
+      [
+        "[SHIFT] button + [REVERSE] button + pad\n[13] (CH1)\n[SHIFT] button + [REVERSE] button + pad\n[15] (CH2)",
+        "MUTE",
+        "Mutes the sample that’s playing back."
+      ],
+      [
+        "[SHIFT] button + pads [1]–[16]",
+        "–",
+        "You can play back a sample from the position of the marker that’s set for that sample."
+      ],
+      [
+        "[SHIFT] button + [REMAIN] button",
+        "–",
+        "The [SHIFT] button remains in a “pressed-down” state. This makes it easier to select a marker and play back.\nPress the [EXIT] button to cancel this behavior."
+      ],
+      [
+        "[SHIFT] button + [MARK] button",
+        "–",
+        "You can add markers while playing samples in DJ mode."
+      ],
+      [
+        "[SHIFT] button + [START/END] button",
+        "–",
+        "You can edit markers while playing samples in DJ mode."
+      ],
+      [
+        "[SHIFT] button + [DEL] button + pads [1]–[16]",
+        "–",
+        "While in DJ mode, you can delete the markers you’ve set for samples."
+      ],
+      [
+        "[SHIFT] button + [ROLL] button",
+        "ROLL SIZE",
+        "Sets the roll interval (1/4, 1/2, 1 or 2 measures). Set the ROLL SIZE before playing back rolls. (You can’t change the ROLL\nSIZE with this operation while a roll is playing back)."
+      ],
+      [
+        "[ROLL] button + pad [13] (CH1)\n[ROLL] button + pad [15] (CH2)",
+        "–",
+        "Repeats the sample playback in more detailed intervals (ROLL).\nNote that when the ROLL SIZE (roll interval) is longer than the sample\nlength, a roll cannot played back."
+      ],
+      [
+        "[ROLL] button + pads [1]–[4]",
+        "–",
+        "Changes the roll interval while the roll is playing back.\n[ROLL] button + pad [1]: quarter-note (1/4 of a measure)\n[ROLL] button + pad [2]: half-note (1/2 of a measure)\n[ROLL] button + pad [3]: whole note (1 measure)\n[ROLL] button + pad [4]: two whole notes (2 measures)"
+      ],
+      [
+        "[REMAIN] + pad [14] (CH1)\n[REMAIN] + pad [16] (CH2)",
+        "BUS FX",
+        "You can set the bus to which the CH1/CH2 sample playback is sent\n(meaning which effects are used).\nWhile holding down the [REMAIN] button, each time you press pad [14]\nor pad [16] switches the effect to use as follows: “BUS-1” Ó “BUS-2” Ó\n“DRY” Ó “BUS-1”."
+      ],
+      [
+        "Press [RESAMPLE] button + [VALUE] knob",
+        "VOLUME CURVE",
+        "Selects the volume curve characteristics used for each slider (CH1\nLEVEL, CH2 LEVEL, X-FADE) in DJ mode.\nEach time you hold down the [RESAMPLE] button and press the\n[VALUE] knob, the characteristic switches in this order: “FAST CUT” Ó\n“LINEAR” Ó “SQUARE” Ó “CUBIC” Ó “FAST CUT”."
+      ],
+      [
+        "[DEL] button + pad [2] + pad [6] (CH1)\n[DEL] button + pad [4] + pad [8] (CH2)",
+        "BPM",
+        "Resets the tempo to the default value."
+      ],
+      [
+        "[START/END] button",
+        "–",
+        "Switches between the functions (CUE MIX or X-FADE) for the [CTRL 3]\nknob."
+      ],
+      [
+        "[PITCH/SPEED] button",
+        "–",
+        "Changes the number of digits shown for the BPM.\nEach time you press the [PITCH/SPEED] button, the display switches in\nthe following order: integers only Ó to the second decimal place Ó to\nthe first decimal place Ó integers only....\nWhen you set the BPM value using pads [2] [4] (BPM+) and pads [6] [8]\n(BPM-), the number of digits shown for the BPM changes according to\nthe minimum unit."
+      ],
+      [
+        "[MARK] button",
+        "–",
+        "Switches between the EFX and MIXER screen views."
+      ],
+      [
+        "[BPM SYNC] button",
+        "–",
+        "Selects the channel (CH1/CH2) used to control reverse playback ([REVERSE] button)."
+      ]
+    ],
+    "Ru": [
+      [
+        "[SHIFT] + [REVERSE] + [13] (CH1)\n[SHIFT] + [REVERSE] + [15] (CH2)",
+        "MUTE",
+        "Отключает звук воспроизводимого сэмпла."
+      ],
+      [
+        "[SHIFT] + пэды [1]-[16]",
+        "–",
+        "Воспроизводить сэмпл с позиции соотв. маркера, установленного для этого сэмпла."
+      ],
+      [
+        "[SHIFT] + [REMAIN]",
+        "–",
+        "[SHIFT] остается в \"нажатом\" состоянии. Это облегчает выбор маркера и воспроизведение. Нажмите кнопку [EXIT], чтобы отменить это поведение."
+      ],
+      [
+        "[SHIFT] + [MARK]",
+        "–",
+        "Добавлять маркеры во время воспроизведения сэмплов в режиме DJ."
+      ],
+      [
+        "[SHIFT] + [START/END]",
+        "–",
+        "Редактировать маркеры во время воспроизведения сэмплов в режиме DJ."
+      ],
+      [
+        "[SHIFT] + [DEL] + пэды [1]-[16]",
+        "–",
+        "Удалить маркеры для текущего сэмпла."
+      ],
+      [
+        "[SHIFT] + [ROLL]",
+        "ROLL SIZE",
+        "Устанавливает интервал дроби Roll: 1/4, 1/2, 1 или 2 такта. Установите ROLL SIZE перед воспроизведением дроби. (Во время воспроизведения дроби уже не получится изменить ROLL SIZE)."
+      ],
+      [
+        "[ROLL] + [13] (CH1)\n[ROLL] + [15] (CH2)",
+        "–",
+        "Повторяет сэмпл с более частым интервалом. Если ROLL SIZE (интервал) больше, чем длина сэмпла, то воспроизведение ролла невозможно."
+      ],
+      [
+        "[ROLL] + пэды [1]-[4]",
+        "–",
+        "Изменение интервала дроби во время его воспроизведения. [ROLL] + [1]: (1/4), [ROLL] + [2]: (1/2), [ROLL] + [3]: целая, [ROLL] + [4]: два такта"
+      ],
+      [
+        "[REMAIN] + [14] (CH1)\n[REMAIN] + [16] (CH2)",
+        "BUS FX",
+        "Установить шину, на которую будет отправлено воспроизведение сэмплов CH1/CH2.\nУдерживая нажатой кнопку [REMAIN], при каждом нажатии на [14] или [16] переключается:\nBUS-1 - BUS-2 - DRY - BUS-1."
+      ],
+      [
+        "[RESAMPLE] + нажать [VALUE].",
+        "VOLUME CURVE",
+        "Выбор характеристик кривой громкости, используемых для каждого регулятора (CH1 LEVEL, CH2 LEVEL, X-FADE).\nПри нажатом [RESAMPLE] каждое нажатие ручки [VALUE]:\nFAST CUT - LINEAR - SQUARE - CUBIC - FAST CUT."
+      ],
+      [
+        "[DEL] + [2] + [6] (CH1) или [DEL] + [4] + [8] (CH2)",
+        "BPM",
+        "Сброс темпа на значение по умолчанию."
+      ],
+      [
+        "[START/END]",
+        "–",
+        "Переключение между функциями CUE MIX или X-FADE для ручки [CTRL 3]."
+      ],
+      [
+        "[PITCH/SPEED]",
+        "–",
+        "Изменяет количество цифр для BPM. При каждом нажатии [PITCH/SPEED] дисплей переключается: целые числа - до второго десятичного знака - до первого десятичного знака - целые числа. При установке значения BPM с помощью пэдов [2] [4] (BPM+) и пэдов [6] [8] (BPM-), количество цифр изменяется в зависимости от минимальной единицы измерения."
+      ],
+      [
+        "[MARK]",
+        "–",
+        "Переключение между экранами EFX и MIXER."
+      ],
+      [
+        "[BPM SYNC]",
+        "–",
+        "Выбор канала (CH1/CH2) для воспроизведения в обратном направлении кнопкой [REVERSE]."
+      ]
+    ]
+  },
+  {
+    "Section": "TR-REC",
+    "Title_En": "Shortcuts used in TR-REC",
+    "Title_Ru": "Сокращения, используемые в TR-REC",
+    "En": [
+      [
+        "[DEL] button + [A/F] button",
+        "Deletes the notes (for one measure) corresponding to the selected\npad."
+      ],
+      [
+        "[DEL] button + [B/G] button",
+        "Deletes the notes (for one measure) corresponding to all pads."
+      ],
+      [
+        "[ROLL] button + [CTRL 1] knob",
+        "You can record the motion of [CTRL 1] knob in the steps.\n* This is enabled when MODE is “TRIG”."
+      ],
+      [
+        "[ROLL] button + [CTRL 2] knob",
+        "You can record the motion of [CTRL 2] knob in the steps.\n* This is enabled when MODE is “TRIG”."
+      ],
+      [
+        "[ROLL] button + [CTRL 3] knob",
+        "You can record the motion of [CTRL 3] knob in the steps.\n* This is enabled when MODE is “TRIG”."
+      ],
+      [
+        "[VALUE] knob (press) + [SUB PAD] button + pads [1]–[16]",
+        "You can select samples without playing them back."
+      ]
+    ],
+    "Ru": [
+      [
+        "[DEL] + банк [A/F]",
+        "Удаление в текущем такте всех нот, соответствующих выбранному пэду."
+      ],
+      [
+        "[DEL] + банк [B/G]",
+        "Удаляет в текущем такте вообще все ноты."
+      ],
+      [
+        "[ROLL] + ручка [CTRL 1]",
+        "Запись движения ручки [CTRL 1].\nТолько в MODE = TRIG."
+      ],
+      [
+        "[ROLL] + ручка [CTRL 2]",
+        "Запись движения ручки [CTRL 2].\nТолько в MODE = TRIG."
+      ],
+      [
+        "[ROLL] + ручка [CTRL 3]",
+        "Запись движения ручки [CTRL 3].\nТолько в MODE = TRIG."
+      ],
+      [
+        "Ручка [VALUE] (нажать) + [SUB PAD] + пэды [1]-[16]",
+        "Выбирать сэмплы без их воспроизведения."
+      ]
+    ]
+  }
+]
