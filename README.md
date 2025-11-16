@@ -2,9 +2,11 @@
 
 # Roland SP-404MK2 shortcuts
 
-Parse PDF manual to extract shortcut info, translate, edit and publish as Telegra.ph page.
+Parse PDF manual to extract shortcut info, translate and edit manually.
 
-Resulting page example: https://telegra.ph/sp404-hotkeys-11-11 (in Russian).
+Publish as Telegra.ph page. Example: https://telegra.ph/sp404-hotkeys-11-11 (Ru).
+
+Publish as Markdown file. Example: https://sp404.ru/SP-404MK2/shortcuts (Ru).
 
 ## How it works
 
