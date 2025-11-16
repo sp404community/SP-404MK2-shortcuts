@@ -9,6 +9,7 @@ load_dotenv()  # reads variables from a .env file to acess via os.environ or os.
 deepl_count = 0
 deepl_length = 0
 
+
 def buttons_from_str(str=""):
     """
     Extract button names from text.
@@ -16,7 +17,7 @@ def buttons_from_str(str=""):
         buttons_from_str("test [One] and [TWO] and more") # ['One', 'TWO']
     """
     pattern = r"\[([^\]]+)\]"
-    
+
     return re.findall(pattern, str)
 
 
@@ -27,7 +28,7 @@ def shortcuts_in_mode(str=""):
         buttons_from_str("Shortcuts used in DJ mode") # ['DJ mode']
     """
     pattern = r"Shortcuts used in (.*)"
-    
+
     return re.findall(pattern, str)
 
 
@@ -54,18 +55,30 @@ def deepl_translate(text, source_lang="EN", target_lang="RU"):
     deepl_length += len(text)
 
     deepl_client = get_deepl_client()
-    result = deepl_client.translate_text(text, source_lang=source_lang, target_lang=target_lang)
+    result = deepl_client.translate_text(
+        text, source_lang=source_lang, target_lang=target_lang
+    )
 
     return result.text
 
 
 def translate_file(
-    src_json_filename="tables.json", dest_json_filename="bilingual.json"
+    src_json_filename="tables.json",
+    dst_json_filename="bilingual.json",
+    target_lang="RU",
+    locale="Ru",
 ):
     """
     Read saved and manually adjusted JSON file,
     translate every entry's last item from English to Russian
     and save resulting array to another JSON file.
+
+    Note that DeepL uses uppercase language names, e.g. "RU",
+    while the "locale" argument is mixed-case: "Ru"
+
+    Resulting data structure contains, for a new language, two items:
+    - Title_Xx - string with a section title translated to language;
+    - Xx - list of lists of strings, partially translated to language.
     """
     bilingual = []
 
@@ -106,7 +119,9 @@ def translate_file(
                 EnList.append(entry[:])
                 entry[0] = deepl_translate(entry[0])
                 # middle entry is NOT translated in "SHIFT" and "DJ mode" triple cases
-                entry[last_index] = deepl_translate(entry[last_index])
+                entry[last_index] = deepl_translate(
+                    entry[last_index], target_lang=target_lang
+                )
                 RuList.append(entry)
 
             bilingual.append(
@@ -119,8 +134,7 @@ def translate_file(
                 }
             )
 
-    with open(dest_json_filename, "w") as fp_out:
+    with open(dst_json_filename, "w") as fp_out:
         json.dump(bilingual, fp_out, ensure_ascii=False, indent=2)
 
     print(f"DeepL calls count: {deepl_count}, sent text length: {deepl_length} bytes")
-

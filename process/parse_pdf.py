@@ -4,7 +4,9 @@ import pdfplumber
 
 
 def read_to_json(
-    pdf_filename="pdf/SP-404MK2_v5_reference_eng03_W.pdf", json_filename="tables.json"
+    pdf_filename="pdf/SP-404MK2_v5_reference_eng03_W.pdf",
+    json_filename="tables.json",
+    page_numbers=[144,145,146,147,148]
 ):
     """
     Read and parse tables from a PDF file,
@@ -19,7 +21,7 @@ def read_to_json(
 
     tables = list()
     with pdfplumber.open(pdf_filename) as pdf:
-        for page_index in range(144, 149):
+        for page_index in page_numbers:
             page = pdf.pages[page_index]
             tables.extend(page.extract_tables())
 
