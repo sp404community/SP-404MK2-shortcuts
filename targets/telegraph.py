@@ -166,16 +166,18 @@ def header(data, locale="Ru"):
     if locale == "Ru":
         return header_Ru(data)
     
-def header_Ru(data):
+def header_Ru(sections = []):
+    def section_anchor(section):
+        title = section["Section"]
+        id = title.replace(' ', '-')
+        return {
+            "tag": "a",
+            "attrs": {"href": f"#{id}"},
+            "children": [title],
+        }
+
     section_ids = list(
-        map(
-            lambda section: {
-                "tag": "a",
-                "attrs": {"href": f"#{section["Section"]}"},
-                "children": [section["Section"]],
-            },
-            data,
-        )
+        map(section_anchor, sections)
     )
     
     for i in range(len(section_ids) - 1, 0, -1):
